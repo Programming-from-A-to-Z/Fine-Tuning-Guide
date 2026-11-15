@@ -1,6 +1,6 @@
 # Fine-Tuning Guide
 
-A step-by-step guide to fine-tuning a small language model with no code, for the [Fine-tuning](https://github.com/Programming-from-A-to-Z/A2Z-F26/tree/main/08-fine-tuning) week of [Programming from A to Z](https://github.com/Programming-from-A-to-Z/A2Z-F26), plus the datasets and scripts it uses.
+A step-by-step guide to fine-tuning a small language model. This material accompanies the [Fine-tuning](https://github.com/Programming-from-A-to-Z/A2Z-F26/tree/main/08-fine-tuning) week of [Computational Text from A to Z](https://github.com/Programming-from-A-to-Z/A2Z-F26), as well as the datasets and scripts for creating and managing them.
 
 The guide fine-tunes [SmolLM2](https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct) (a chat model with 360 million weights) on 90 conversations with Biscuit, an invented cat. Then it runs the new model in Ollama and in a p5.js sketch. Training takes about a minute on an Apple Silicon Mac. Once it works, do it again with [a dataset of your own](make-a-dataset.md).
 
